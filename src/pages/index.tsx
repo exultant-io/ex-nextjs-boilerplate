@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Footer from '~/components/footer'
 
 export default function Home() {
   return (
@@ -48,15 +49,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer>
-        <a
-          href="https://zeit.co?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by <img src="/zeit.svg" alt="ZEIT Logo" />
-        </a>
-      </footer>
+      <Footer />
 
       <style jsx>{`
         .container {
