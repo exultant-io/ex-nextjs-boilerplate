@@ -1,3 +1,4 @@
+import * as React from 'react'
 export default function Footer() {
   return (
     <div className="container">
@@ -43,21 +44,6 @@ export default function Footer() {
         a {
           color: inherit;
           text-decoration: none;
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-
-        * {
-          box-sizing: border-box;
         }
       `}</style>
     </div>
