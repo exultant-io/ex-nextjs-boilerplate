@@ -15,11 +15,11 @@
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
     "jsx": "preserve",
+    "isolatedModules": true,
     "baseUrl": ".",
     "paths": {
-      "~/*/": [
+      "~/*": [
         "src/*"
       ],
     },
