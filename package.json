@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ./src/pages/* ./src/components/* -c .eslintrc.json --fix --ext ts,tsx"
+    "lint": "eslint ./src/pages/* ./src/components/* -c .eslintrc.json --fix --ext ts,tsx",
+    "cypress:open": "cypress open"
   },
   "husky": {
     "hooks": {
@@ -21,6 +22,7 @@
   },
   "pre-commit": "lint:staged",
   "dependencies": {
+    "eslint-plugin-cypress": "^2.10.3",
     "next": "9.4.2",
     "react": "16.13.1",
     "react-dom": "16.13.1"
@@ -32,6 +34,7 @@
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",
     "babel-eslint": "^10.1.0",
+    "cypress": "^4.6.0",
     "eslint": "^7.0.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.3",
