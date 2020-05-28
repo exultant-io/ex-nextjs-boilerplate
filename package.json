@@ -1,7 +1,7 @@
 {
   "name": "ex-nextjs-boilerplate",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -26,7 +26,8 @@
     "eslint-plugin-cypress": "^2.10.3",
     "next": "9.4.2",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "styled-components": "^5.1.1"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^9.4.2",
@@ -35,9 +36,11 @@
     "@types/jest": "^25.2.3",
     "@types/node": "^14.0.5",
     "@types/react": "^16.9.35",
+    "@types/styled-components": "^5.1.0",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",
     "babel-eslint": "^10.1.0",
+    "babel-plugin-styled-components": "^1.10.7",
     "cypress": "^4.6.0",
     "eslint": "^7.0.0",
     "eslint-config-prettier": "^6.11.0",

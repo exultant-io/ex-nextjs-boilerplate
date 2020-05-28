@@ -1,6 +1,11 @@
-import Head from 'next/head'
-import Footer from '~/components/footer'
+import Head from 'next/head';
+import styled from 'styled-components';
+import Footer from '~/components/footer';
 
+const Title = styled.h1`
+  font-size: 50px;
+  color: ${({ theme }) => theme.colors.primary};
+`;
 export default function Home() {
   return (
     <div className="container">
@@ -10,9 +15,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="title">
+        <Title>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        </Title>
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>
@@ -193,5 +198,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
