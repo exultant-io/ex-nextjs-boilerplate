@@ -25,7 +25,7 @@
   "dependencies": {
     "eslint-plugin-cypress": "^2.10.3",
     "next": "9.5.0",
-    "react": "16.13.1",
+    "react": "16.14.0",
     "react-dom": "16.13.1",
     "styled-components": "^5.1.1"
   },
